@@ -1,0 +1,631 @@
+/**
+ * ============================================================================
+ *  OVA SENA - Reto central  ·  ARCHIVO DE CONTENIDO EDITABLE
+ * ============================================================================
+ *
+ *  Todo el contenido del OVA se cambia aquí: textos, imágenes, logos,
+ *  slides, créditos, bibliografía y botones. El código no se toca.
+ *
+ *  CÓMO SE APLICA
+ *    1. Guarde este archivo.
+ *    2. Doble clic en  generar-content.command  (valida y genera js/content.js).
+ *    3. Recargue index.html  (Cmd+Shift+R).
+ *  Si hay un error, el generador lo explica y NO cambia nada.
+ *
+ *  SECCIONES
+ *    courseTitle, unitCode ... título del curso y etiqueta ("Reto central")
+ *    heroImage ............... imagen central del menú
+ *    branding ................ logos, fondo de la portada, pie de página y
+ *                              título de la pestaña del navegador
+ *    resources ............... un botón del menú por recurso; cada uno abre
+ *                              un modal con sus "slides"
+ *    credits, bibliography ... ventanas de Créditos y Bibliografía del dock
+ *    features ................ prender / apagar botones ("enabled": false)
+ *
+ *  Todos los campos y tipos de slide están explicados en
+ *  MANUAL-IMPLEMENTACION.md. Las imágenes van en assets/.
+ * ============================================================================
+ */
+
+{
+  "courseTitle": "Prácticas integradas para la seguridad del paciente, la continuidad del cuidado y el mejoramiento continuo en hospitales públicos",
+  "unitCode": "Reto central",
+  "heroImage": "assets/1_retos_aesa.webp",
+  "heroImageAlt": "Médico y directiva revisando un documento institucional",
+  "branding": {
+    "pageTitle": "OVA SENA • Reto central",
+    "portadaImage": "assets/portada.jpg",
+    "logoLeft": "assets/log_foe.png",
+    "logoLeftWhite": "assets/log_foe_blanco.png",
+    "logoLeftAlt": "Formación Continua Especializada (FCE)",
+    "logoRight": "assets/Logo_aesa_color.png",
+    "logoRightWhite": "assets/Logo_aesa_blanco.png",
+    "logoRightAlt": "SENA y AESA",
+    "popupLogoLeft": "assets/25anos.png",
+    "popupLogoLeftAlt": "Más de 25 años",
+    "popupLogoRight": "assets/Hashtag_logo.png",
+    "popupLogoRightAlt": "#FormaciónContinua",
+    "footerNotice": "Las acciones de formación ejecutadas en el marco de la convocatoria DSNFT - 0001 - FCE - 2026 son gratuitas para los trabajadores beneficiarios"
+  },
+  "resources": [
+    {
+      "id": "01",
+      "number": "01",
+      "code": "¿Cómo transformar en la E.S.E. la cultura de seguridad del paciente en un hecho real, migrando <strong>de la búsqueda de culpables, a encontrar las causas en los eventos adversos</strong>, con <strong>gestión permanente del riesgo clínico</strong> y las <strong>transiciones asistenciales (ingreso, traslados entre servicios y egreso) en experiencias seguras</strong>, coordinadas y profundamente humanizadas, donde el <strong>paciente y su familia sean coprotagonistas activos</strong> del cuidado y la comunicación del equipo clínico <strong>elimine las acciones inseguras prevenibles con la mejora continua?</strong>",
+      "label": "Reto",
+      "typeLabel": "Reto",
+      "shortTitle": "Reto",
+      "twoLineTitle": "Reto",
+      "icon": "assets/icons/reto_1.png",
+      "modalImage": "assets/modal_reto.jpg",
+      "modalImageAlt": "Equipo de salud revisando con una paciente y su familia la información de su cuidado",
+      // Subtítulo azul bajo el título del modal: true lo oculta, false lo muestra
+      "hideModalSubtitle": true,
+      "slides": [
+        {
+          "id": "reto-slide-1",
+          "type": "text",
+          "tabTitle": "Objetivo del reto",
+          "tabNum": "01",
+          "title": "Objetivo del reto",
+          "icon": "assets/icons/reto.png",
+          "paragraph": null,
+          "paragraphs": [
+            "Fortalecer el compromiso de los estudiantes con la promoción e implementación de la ruta institucional de Seguridad del Paciente, en la E.S.E., mediante la apropiación y difusión de la cultura justa, el enfoque sistémico: aprender a determinar las causas con una equilibrada gestión de eventos adversos, el diseño de barreras protectoras, preventivas, el mejoramiento de la comunicación y el trato digno, y la promoción de estrategias seguras para las transiciones de los pacientes, todo lo anterior enmarcado en la gestión de los riesgos clínicos."
+          ]
+        },
+        {
+          "id": "reto-slide-2",
+          "type": "flipcard",
+          "tabTitle": "Competencias por trabajar",
+          "tabNum": "02",
+          "title": "Competencias por trabajar",
+          "icon": "assets/competencias.png",
+          "paragraph": null,
+          "instruction": "Haga clic en cada tarjeta para conocer la competencia de la unidad.",
+          "cards": [
+            {
+              "num": "01",
+              "frontTitle": "Unidad 1",
+              "icon": "assets/unidad1.png",
+              "backBadge": "COMPETENCIA",
+              "backTitle": "Unidad 1",
+              "backDesc": "Aplicar herramientas de identificación, reporte y análisis de incidentes y eventos adversos para proponer barreras de seguridad en procesos asistenciales de una empresa social del Estado."
+            },
+            {
+              "num": "02",
+              "frontTitle": "Unidad 2",
+              "icon": "assets/unidad2.png",
+              "backBadge": "COMPETENCIA",
+              "backTitle": "Unidad 2",
+              "backDesc": "Aplicar prácticas de comunicación y atención centrada en la persona durante la interacción con usuarios y familias, favoreciendo el trato digno, la comprensión y la continuidad del cuidado en una empresa social del Estado."
+            },
+            {
+              "num": "03",
+              "frontTitle": "Unidad 3",
+              "icon": "assets/unidad3.png",
+              "backBadge": "COMPETENCIA",
+              "backTitle": "Unidad 3",
+              "backDesc": "Aplicar prácticas de comunicación y atención centrada en la persona durante la interacción con usuarios y familias, favoreciendo la comunicación efectiva, la comprensión y la continuidad del cuidado en una empresa social del Estado."
+            },
+            {
+              "num": "04",
+              "frontTitle": "Unidad 4",
+              "icon": "assets/unidad_4.png",
+              "backBadge": "COMPETENCIA",
+              "backTitle": "Unidad 4",
+              "backDesc": "Aplicar mecanismos de comunicación y coordinación durante las transiciones asistenciales para reducir riesgos y favorecer la continuidad del cuidado en los servicios de una empresa social del Estado."
+            }
+          ],
+          "iconAboveTitle": true
+        },
+        {
+          "id": "reto-slide-3",
+          "type": "text",
+          "tabTitle": "Situación problema",
+          "tabNum": "03",
+          "title": "Descripción de la situación problema, caso o análisis de proceso",
+          "icon": "assets/descripcion.png",
+          "paragraph": null,
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "<strong>Situación problema: «Un evento que revela fallos en todo el recorrido de atención»</strong>"
+            },
+            {
+              "type": "paragraph",
+              "text": "Una E.S.E. viene fortaleciendo su Programa de Seguridad del Paciente. Sin embargo, durante las revisiones internas se identifican dificultades relacionadas con el reporte y análisis de eventos adversos, la comunicación con pacientes y familias, el seguimiento efectivo de los planes de mejora y la seguridad durante las transiciones asistenciales."
+            },
+            {
+              "type": "paragraph",
+              "text": "Esta situación se hace evidente con el caso de una gestante de 30 semanas con antecedente de preeclampsia, que consulta al servicio de urgencias por síntomas compatibles con una infección urinaria."
+            },
+            {
+              "type": "paragraph",
+              "text": "La paciente es valorada y se decide manejo ambulatorio. Durante la atención, ella y su acompañante manifiestan dudas sobre su estado de salud y sobre los riesgos asociados al embarazo. No obstante, la información suministrada no permite asegurar que hayan comprendido completamente las recomendaciones, el tratamiento, los signos de alarma y las situaciones por las que deberían regresar inmediatamente a la institución."
+            },
+            {
+              "type": "paragraph",
+              "text": "Al momento del egreso se formula tratamiento farmacológico. Cuando la paciente intenta reclamar los medicamentos, estos no se encuentran disponibles. Esta barrera no se resuelve oportunamente y la institución tampoco confirma posteriormente si la paciente inició el tratamiento indicado."
+            },
+            {
+              "type": "paragraph",
+              "text": "Días después, la gestante reingresa con deterioro de su condición clínica asociado a la infección. El caso se convierte en un evento adverso grave que debe ser analizado por la E.S.E."
+            },
+            {
+              "type": "paragraph",
+              "text": "A partir de esta situación, la institución reconoce que no está frente a un único error individual, sino ante un problema que requiere revisar integralmente el proceso de atención: las condiciones que contribuyeron al evento, los riesgos clínicos, la comunicación con la paciente y su familia, las barreras de seguridad, el egreso, la continuidad del tratamiento y la efectividad de las acciones de mejora."
+            },
+            {
+              "type": "paragraph",
+              "text": "Este único caso se convierte en el eje del reto y acompañará al estudiante durante las cuatro unidades."
+            },
+            {
+              "type": "paragraph",
+              "text": "<strong>Desarrollo del mismo caso a través de las cuatro unidades</strong>"
+            },
+            {
+              "type": "accordion",
+              "firstOpen": false,
+              "items": [
+                {
+                  "title": "UT1. Cultura de seguridad y gestión del riesgo clínico",
+                  "content": "Inicialmente, algunos integrantes del equipo centran la discusión en establecer quién fue responsable de permitir el egreso de la paciente. Esta reacción puede reforzar una cultura punitiva y afectar el reporte de incidentes y eventos adversos.<br><br>El equipo responsable de Seguridad del Paciente orienta el análisis desde una cultura justa y un enfoque sistémico. Los estudiantes deberán reconstruir el caso, identificar riesgos y factores contributivos y establecer qué barreras fallaron, cuáles estaban ausentes y cuáles deberían fortalecerse.<br><br><strong>Pregunta orientadora:</strong> ¿Cómo pasar de buscar a quién culpar a comprender por qué ocurrió el evento y qué debe cambiar en el sistema para reducir la posibilidad de que vuelva a ocurrir?<br><br><strong>Producto de la unidad:</strong> Análisis sistémico del caso e identificación de factores contributivos, riesgos y barreras de seguridad."
+                },
+                {
+                  "title": "UT2. Atención centrada en la persona y humanización",
+                  "content": "Al profundizar en el mismo caso, el equipo identifica que la voz de la paciente y su familia no tuvo suficiente protagonismo. No quedó suficientemente establecido si comprendieron la situación clínica, los riesgos, el tratamiento y las recomendaciones para continuar el cuidado en casa.<br><br>Los estudiantes deberán analizar cómo garantizar una comunicación clara, comprensible y respetuosa; verificar la comprensión mediante estrategias como Teach-Back; e incorporar dignidad, autonomía, empatía y participación en las decisiones relacionadas con el cuidado.<br><br><strong>Pregunta orientadora:</strong> ¿Qué habría cambiado si la paciente y su familia hubieran participado activamente en las decisiones y se hubiese verificado que comprendían el tratamiento, los riesgos y los signos de alarma?<br><br><strong>Producto de la unidad:</strong> Propuesta de comunicación segura y humanizada con la paciente y su familia, incluyendo verificación de la comprensión."
+                },
+                {
+                  "title": "UT3. Atención centrada en las personas y comunicación segura",
+                  "content": "El análisis del evento identifica oportunidades de mejora, pero surge otra dificultad institucional: anteriormente se han formulado planes que se declaran cumplidos por la ejecución de actividades, sin demostrar necesariamente cambios en los resultados.<br><br>El equipo deberá transformar las causas y brechas identificadas en acciones de mejora medibles, aplicar el Modelo para la Mejora y ciclos PHEA/PDSA, formular ideas de cambio y establecer indicadores que permitan comprobar si las intervenciones producen el resultado esperado.<br><br><strong>Pregunta orientadora:</strong> ¿Cómo podemos demostrar que las acciones definidas después del evento realmente mejoran la seguridad y no se quedan únicamente en un plan escrito?<br><br><strong>Producto de la unidad:</strong> Plan de mejora con objetivo, ideas de cambio, indicadores, responsables y mecanismo de seguimiento."
+                },
+                {
+                  "title": "UT4. Transiciones asistenciales y continuidad segura del cuidado",
+                  "content": "Finalmente, el equipo identifica que uno de los puntos críticos ocurrió durante la transición entre la atención institucional y el cuidado en casa. La paciente salió de la E.S.E. con una fórmula, pero esto por sí solo no garantizó la continuidad del tratamiento.<br><br>Los estudiantes deberán rediseñar esta transición aplicando los aprendizajes sobre ingreso, traslados, remisiones, cambios de turno y egreso seguro, incorporando comprensión de recomendaciones, signos de alarma, continuidad del tratamiento y mecanismos institucionales de coordinación y seguimiento.<br><br><strong>Pregunta orientadora:</strong> ¿Qué barreras deben incorporarse al proceso de egreso para que salir de la institución no signifique interrumpir la continuidad y seguridad del cuidado?<br><br><strong>Producto de la unidad:</strong> Propuesta o lista de verificación para una transición y un egreso seguros, aplicable al caso."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "<strong>Roles transversales</strong>"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Paciente:</strong> Participa activamente en las decisiones y aporta su experiencia sobre la atención recibida.",
+                "<strong>Familiar o cuidador:</strong> Acompaña, aporta información y participa en la comprensión de recomendaciones y continuidad del cuidado.",
+                "<strong>Médico y profesional de enfermería:</strong> Analizan las condiciones clínicas, participan en la identificación de riesgos y proponen barreras de seguridad.",
+                "<strong>Referente de seguridad del paciente:</strong> Orienta el análisis sistémico y promueve una cultura justa y de aprendizaje.",
+                "<strong>Equipo de calidad:</strong> Transforma los hallazgos en oportunidades de mejora y establece indicadores para evaluar los resultados.",
+                "<strong>Auditor o evaluador:</strong> Verifica la implementación y la efectividad de las acciones propuestas.",
+                "<strong>Equipo responsable de la transición/egreso:</strong> Garantiza que información, tratamiento, recomendaciones, alertas y continuidad del cuidado sean abordados antes de finalizar la atención institucional."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "<strong>Condiciones clave del reto</strong>"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "No buscar culpables: analizar el sistema y las condiciones que hicieron posible el evento.",
+                "Escuchar al paciente y su familia: incorporarlos como participantes activos del cuidado.",
+                "Gestionar los riesgos: diseñar barreras realizables frente a los riesgos identificados.",
+                "Medir la mejora: no considerar una acción cumplida solamente porque se ejecutó; valorar su resultado.",
+                "Garantizar continuidad: comprender que la seguridad del paciente no termina cuando este sale físicamente de la institución."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "<strong>Cierre del reto</strong>"
+            },
+            {
+              "type": "paragraph",
+              "text": "<strong>¿Se atreve a transformar un evento adverso en una oportunidad de aprendizaje para toda la E.S.E.?</strong>"
+            },
+            {
+              "type": "paragraph",
+              "text": "<strong>¿Puede analizar lo ocurrido sin culpabilizar, escuchar al paciente y a su familia, identificar las causas, proponer mejoras medibles y asegurar que las transiciones del cuidado sean más seguras?</strong>"
+            },
+            {
+              "type": "paragraph",
+              "text": "<strong>Ese es el reto: pasar del evento al aprendizaje y del aprendizaje a una atención más segura, humana y sostenible... ¡A LA ACCIÓN!</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "number": "02",
+      "code": "Pretest",
+      "label": "Reto Central",
+      "typeLabel": "Pretest",
+      "shortTitle": "Pretest",
+      "twoLineTitle": "Pretest",
+      "icon": "assets/icons/Pretest.png",
+      "modalImage": "assets/modal_pretest.jpg",
+      "modalImageAlt": "Reunión de equipo frente a un tablero de indicadores de calidad y seguridad del paciente",
+      // Subtítulo azul bajo el título del modal: true lo oculta, false lo muestra
+      "hideModalSubtitle": true,
+      "slides": [
+        {
+          "id": "pretest-slide-actividad",
+          "type": "text",
+          "tabTitle": "Actividad",
+          "tabNum": "01",
+          "hideHeader": true,
+          "title": null,
+          "paragraphs": [
+            "¡Es momento de evaluar sus conocimientos!",
+            "Dé clic en el botón y conozca su punto de partida."
+          ],
+          "actionUrl": "https://lms.eduvirtualaesa.com/mod/quiz/view.php?id=19",
+          "actionText": "Comenzar evaluación",
+          "variant": "cta-hero",
+          "heroIcon": "assets/icons/Pretest.png"
+        }
+      ]
+    }
+  ],
+  "credits": {
+    "title": "Créditos",
+    "iconSrc": "assets/Creditos.png",
+    "supportImageSrc": "assets/credits-team-support.jpg",
+    "supportImageAlt": "Equipo de desarrollo y diseño pedagógico",
+    "heading": "Grupo de trabajo",
+    // Bloque superior (opcional): entidades y datos de la edición
+    "institution": {
+      "entities": [
+        "Ministerio del Trabajo y Seguridad Social",
+        "Servicio Nacional de Aprendizaje (SENA)",
+        "Asociación de Empresas Sociales del Estado de Antioquia (AESA)"
+      ],
+      "details": [
+        {
+          "role": "Primera edición:",
+          "names": "octubre/2026"
+        }
+      ]
+    },
+    "coordination": "Coordinación general: Fundación Visión Salud",
+    // Etiqueta verde bajo la coordinación (opcional; vacío = no se muestra)
+    "subordination": "",
+    "sections": [
+      {
+        "role": "Equipo Técnico Fundación Visión Salud:",
+        "names": "Paola Rueda Casallas"
+      },
+      {
+        "role": "Asesoría y diseño pedagógico:",
+        "names": "Alba Lucía Núñez G. - Samir Balanta Perea"
+      },
+      {
+        "role": "Adecuación y corrección de estilo:",
+        "names": "José Gabriel Ortiz Abella"
+      },
+      {
+        "role": "Ilustraciones y diseño digital:",
+        "names": "Liam Pamela Hermida García - William Gonzáles"
+      },
+      {
+        "role": "Diagramación:",
+        "names": "John Carlos Jiménez Díaz"
+      },
+      {
+        "role": "Realización audiovisual:",
+        "names": "Oscar Javier Rojas Pulido"
+      },
+      {
+        "role": "Director de virtualización y plataforma educativa:",
+        "names": "Julián Andrés Mora Gómez"
+      },
+      {
+        "role": "Derechos de autor y licencias:",
+        "names": "SENA"
+      }
+    ],
+    "legalNotice": "Las acciones de formación ejecutadas en el marco de la convocatoria DSNFT - 0001 - FCE - 2026 son gratuitas para los trabajadores beneficiarios"
+  },
+  "bibliography": {
+    "title": "Bibliografía",
+    "iconSrc": "assets/bibliografia.png",
+    "supportImageSrc": "assets/library-support.jpg",
+    "supportImageAlt": "Biblioteca académica y centro de documentación",
+    "heading": "Bibliografía",
+    "description": "Fuentes documentales, lecturas y recursos recomendados para la fundamentación conceptual del curso:",
+    "linkText": "Consultar recurso fuente",
+    "entries": [
+      {
+        "text": "Agency for Healthcare Research and Quality. (2018, May). <em>Patient safety resources</em>.",
+        "url": "https://www.ahrq.gov/"
+      },
+      {
+        "text": "Agency for Healthcare Research and Quality. (2021). <em>Patient Safety Indicators technical specifications: Version 2021</em>.",
+        "url": "https://qualityindicators.ahrq.gov/Archive/psi_techspec/icd10_v2021"
+      },
+      {
+        "text": "Agency for Healthcare Research and Quality. (2024). <em>Use the teach-back method: Tool 5</em>.",
+        "url": "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+      },
+      {
+        "text": "Agra, Y., & Recio, C. (2010). <em>Patient safety culture report focusing on indicators</em>. EUNetPaS.",
+        "url": "http://www.seguridaddelpaciente.es/resources/documentos/2016/eunetpas/WP1-Eunetpas-patient_safety_culture-report_focusing_on_indicators.pdf"
+      },
+      {
+        "text": "<em>Análisis proactivo del riesgo: AMFE</em>. (2010). <em>Revista Clínica de Atención Primaria en Salud</em>, (18).",
+        "url": "https://ddd.uab.cat/pub/rceap/rceap_a2010m10n18/rceap_a2010m10n18a7.pdf"
+      },
+      {
+        "text": "Añel-Rodríguez, R. M., Cambero-Serrano, M. I., & Irurzun-Zuazabal, E. (2015). Análisis de las reclamaciones de pacientes en Atención Primaria: una oportunidad para mejorar la seguridad clínica. <em>Revista de Calidad Asistencial, 30</em>(5), 220–225.",
+        "url": "https://doi.org/10.1016/j.cali.2015.04.007"
+      },
+      {
+        "text": "Asociación Americana de Medicina. (2020). <em>La importancia de la comunicación efectiva en los hospitales: Casos de éxito y mejores prácticas</em>. Atlantis University.",
+        "url": "https://atlantisuniversity.edu/es/au_blog/comunicacion-efectiva-en-salud/"
+      },
+      {
+        "text": "Baile, W. F., Buckman, R., Lenzi, R., Glober, G., Beale, E. A., & Kudelka, A. P. (2000). SPIKES—A six-step protocol for delivering bad news: Application to the patient with cancer. <em>The Oncologist, 5</em>(4), 302–311.",
+        "url": null
+      },
+      {
+        "text": "Baltazar-Gómez, D. Y., Rosas-González, E., García Rodríguez, I., Ibarra-Gutiérrez, M. J., & Pirez-Lindoro, M. Á. (2022). Relación entre cultura organizacional, satisfacción laboral y desempeño en trabajadores de salud en Querétaro, México. <em>SANUS, 7</em>, Article e246.",
+        "url": "http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-60942022000100112"
+      },
+      {
+        "text": "Bascuñán R., M. L., & Luengo-Charath, M. X. (2022). Protocolos de comunicación de malas noticias en salud: Limitaciones, desafíos y propuestas [Bad news communication protocols in health: Limitations, challenges and proposals]. <em>Revista Médica de Chile, 150</em>(9), 1206–1213.",
+        "url": null
+      },
+      {
+        "text": "Bascuñán, M. L., Flores, C., Cantuarias, P., & Cúneo, F. (2022). Comunicación de malas noticias en salud: Protocolos y recomendaciones. <em>Revista Médica de Chile, 150</em>(7), 918–924.",
+        "url": null
+      },
+      {
+        "text": "Benítez, J. A., García, M. L., & Torres, R. (2024). La dignidad humana y el cuidado: un nuevo derecho fundamental. Revista de Filosofía y Derecho, 12(2), 45–58.",
+        "url": "https://doi.org/10.15359/rldh.36-2.7"
+      },
+      {
+        "text": "Benson, T. (2022). <em>Patient-reported outcomes and experience: Measuring what we want from PROMs and PREMs</em>. Springer.",
+        "url": "https://doi.org/10.1007/978-3-030-97071-0"
+      },
+      {
+        "text": "Bermejo, J. C., Villacieros, M., Carabias, R., Sánchez, E., & Díaz-Albo, B. (2013). Conspiración del silencio en familiares y pacientes al final de la vida ingresados en una unidad de cuidados paliativos: Nivel de información y actitudes observadas. <em>Medicina Paliativa, 20</em>(2), 49–59.",
+        "url": null
+      },
+      {
+        "text": "Blais, R., Bruno, D., Bartlett, G., & Tamblyn, R. (2008). Can we use incident reports to detect hospital adverse events? <em>Journal of Patient Safety, 4</em>(1), 9–12.",
+        "url": null
+      },
+      {
+        "text": "Borjalilu, S., Karbakhsh, M., Hosseini, M., Sadighi, S., & Kaviani, A. (2018). Clinicians' practice and perception of disclosure model for breaking bad news to breast cancer patients. <em>Archives of Breast Cancer, 5</em>(1), 15–25.",
+        "url": null
+      },
+      {
+        "text": "Boskeljon-Horst, L., Steinmetz, V., & Dekker, S. (2024). Restorative just culture: An exploration of the enabling conditions for successful implementation. <em>Healthcare, 12</em>(20), Article 2046.",
+        "url": "https://doi.org/10.3390/healthcare12202046"
+      },
+      {
+        "text": "Brach, C. (Ed.). (2023). <em>AHRQ health literacy universal precautions toolkit</em> (3.ª ed., AHRQ Publication n.º 23-0075). Agency for Healthcare Research and Quality.",
+        "url": "https://www.ahrq.gov/health-literacy/improve/precautions/index.html"
+      },
+      {
+        "text": "Calvert, M., Kyte, D., Price, G., Valderas, J. M., & von Hildebrand, M. (2019). Maximising the impact of patient reported outcome assessment for patients and society. <em>BMJ, 364</em>, Article k5267.",
+        "url": null
+      },
+      {
+        "text": "Carayon, P. (2006). Human factors of complex sociotechnical systems. <em>Applied Ergonomics, 37</em>(4), 525–535.",
+        "url": "https://doi.org/10.1016/j.apergo.2006.04.011"
+      },
+      {
+        "text": "Carayon, P., Wetterneck, T. B., Rivera-Rodriguez, A. J., Hundt, A. S., Hoonakker, P., Holden, R., & Gurses, A. P. (2014). Human factors systems approach to healthcare quality and patient safety. <em>Applied Ergonomics, 45</em>(1), 14–25.",
+        "url": null
+      },
+      {
+        "text": "Carayon, P., Wooldridge, A., Hoonakker, P., Hundt, A. S., & Kelly, M. M. (2020). SEIPS 3.0: Human-centered design of the patient journey for patient safety. <em>Applied Ergonomics, 84</em>, Article 103033.",
+        "url": "https://doi.org/10.1016/j.apergo.2019.103033"
+      },
+      {
+        "text": "Decreto 1757 de 1994. Por el cual se organizan y establecen las modalidades y formas de participación social en la prestación de servicios de salud.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/decreto_1757_1994.htm"
+      },
+      {
+        "text": "Dirección de Empleo, Trabajo y Asuntos Sociales, Comité de Salud. (2017). <em>Patient safety data systems in the OECD: A report of a joint Irish Department of Health...</em> OECD Conference, OCDE DELSA/HEA/HCQ.",
+        "url": "https://www.oecd.org/health/health-systems/38705981/2017.pdf"
+      },
+      {
+        "text": "Donabedian, A. (2005). El papel de la calidad en la administración de la atención médica. <em>Salud Pública de México, 47</em>(4), 318–326.",
+        "url": null
+      },
+      {
+        "text": "Federación Colombiana de Obstetricia y Ginecología (Fepasde). (2026). <em>Cómo dar malas noticias en salud con el protocolo SPIKES</em>.",
+        "url": "https://contenido.fepasde.com/protocolo-spikes"
+      },
+      {
+        "text": "Gillespie, A., & Reader, T. W. (2018). Patient-centered insights: Using health care complaints to reveal hot spots and blind spots in quality and safety. <em>The Milbank Quarterly, 96</em>(3), 530–567.",
+        "url": "https://doi.org/10.1111/1468-0009.12338"
+      },
+      {
+        "text": "González-Gutiérrez, A., & Rodríguez-López, M. (2024). Influencia de la cultura organizacional en la innovación y el cambio en las instituciones de salud. <em>Journal of Science and Research, 9</em>(1), 1–15.",
+        "url": "https://revistas.utb.edu.ec/index.php/sr/article/view/3347"
+      },
+      {
+        "text": "Haggerty, J. L., Reid, R. J., Freeman, G. K., Starfield, B. H., Adair, C. E., & McKendry, R. (2003). Continuity of care: A multidisciplinary review. <em>BMJ, 327</em>(7425), 1219–1221.",
+        "url": "https://doi.org/10.1136/bmj.327.7425.1219"
+      },
+      {
+        "text": "Hernández Ledesma, Y., Casanova Moreno, M. C., Sánchez Pérez, C. F., Rodríguez López, M., & Ferro González, B. (2019). Fundamentos teórico-metodológicos sobre gestión de riesgos asociados al cuidado de enfermería al paciente crítico. <em>Revista de Ciencias Médicas de Pinar del Río, 23</em>(5), 772–786.",
+        "url": "http://revcmpinar.sld.cu/index.php/publicaciones/article/view/4112"
+      },
+      {
+        "text": "Institute for Healthcare Improvement. (2017). <em>QI essentials toolkit: Failure modes and effects analysis (FMEA) tool</em>.",
+        "url": "http://www.ihi.org/"
+      },
+      {
+        "text": "Institute for Healthcare Improvement. (2021). <em>Introduction to trigger tools for identifying adverse events</em>.",
+        "url": "https://www.ihi.org/library/tools/introduction-trigger-tools-identifying-adverse-events"
+      },
+      {
+        "text": "Institute for Healthcare Improvement. (2021). <em>Uso del Model for Improvement para mejorar la salud, el bienestar y la equidad</em>.",
+        "url": "https://www.ihi.org/es/library/blog/using-model-improvement-improve-health-well-being-and-equity"
+      },
+      {
+        "text": "Institute for Healthcare Improvement. (s. f.). <em>Model for improvement: Establishing measures</em>.",
+        "url": "https://www.ihi.org/library/model-for-improvement/establishing-measures"
+      },
+      {
+        "text": "International Organization for Standardization. (2005). <em>Medical devices—Coding structure for adverse event type and cause</em> (ISO/TS 19218:2005).",
+        "url": null
+      },
+      {
+        "text": "INVIMA. (2016). <em>Sistemas de gestión de riesgo clínico: Metodología AMFE</em>.",
+        "url": "https://www.invima.gov.co/biblioteca/sistemas-gestion-riesgo-clinico-metodologia-amfe-95627"
+      },
+      {
+        "text": "IQVIA. (2023). <em>Planning to engage: A holistic approach to patient inclusion</em>.",
+        "url": "https://www.iqvia.com/library/white-papers/planning-to-engage-a-holistic-approach-to-patient-inclusion"
+      },
+      {
+        "text": "Joint Commission International. (2015). <em>Joint Commission International accreditation standards for hospitals: International patient safety goals</em>.",
+        "url": null
+      },
+      {
+        "text": "Juvinyà-Canal, D. (2021). Alfabetización en salud en la comunidad. <em>Innovación Educativa</em>, (31).",
+        "url": "https://doi.org/10.15304/ie.31.7952"
+      },
+      {
+        "text": "Karsh, B. T., Holden, R. J., Alper, S. J., & Or, C. K. (2006). A human factors engineering paradigm for patient safety: Designing to support the performance of the healthcare professional. <em>BMJ Quality & Safety, 15</em>(Suppl. 1), i59–i65.",
+        "url": null
+      },
+      {
+        "text": "Ley 1474 de 2011. Por la cual se dictan normas orientadas a fortalecer los mecanismos de prevención, investigación y sanción de actos de corrupción y la efectividad del control de la gestión pública. 12 de julio de 2011. Diario Oficial n.º 48.128.",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1474_2011.html"
+      },
+      {
+        "text": "Ley 1751 de 2015. Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones. 16 de febrero de 2015. Diario Oficial n.º 49.427.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/ley_1751_2015.htm"
+      },
+      {
+        "text": "Marschollek, P., Bąkowska, K., Bąkowski, W., Marschollek, K., & Tarkowski, R. (2019). Oncologists and breaking bad news—from the informed patients' point of view: The evaluation of the SPIKES protocol implementation. <em>Journal of Cancer Education, 34</em>(2), 375–380.",
+        "url": null
+      },
+      {
+        "text": "Martínez, T. (2016). <em>La atención centrada en la persona: Enfoque y modelos para el buen trato</em>. Fundación Pilares para la Autonomía Personal.",
+        "url": "https://www.acpgerontologia.com/"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social de Colombia. (2006, 3 de abril). <em>Decreto 1011 de 2006: por el cual se establece el Sistema Obligatorio de Garantía de Calidad de la Atención de Salud del Sistema General de Seguridad Social en Salud</em>. Diario Oficial No. 46.232.",
+        "url": null
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social de Colombia. (2008, 11 de junio). <em>Lineamientos para la implementación de la Política de Seguridad del Paciente</em>. Observatorio de Calidad de la Atención en Salud.",
+        "url": "http://www.minproteccionsocial.gov.co/observatoriocalidad"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social de Colombia. (2014). <em>Lineamiento técnico para la seguridad en el almacenamiento y transporte de pacientes</em> (Resolución 2003 de 2014).",
+        "url": null
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social de Colombia. (2015). Paquetes instruccionales: garantizar la funcionalidad de los procedimientos de consentimiento informado/identificación. Guía técnica de buenas prácticas para la seguridad del paciente en la atención en salud (Versión 2).",
+        "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/Garantizar-funcionalidad-procedimientos.pdf"
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social de Colombia. (2019, 25 de noviembre). <em>Resolución 3100 de 2019: por la cual se definen los procedimientos y condiciones de inscripción de los prestadores de servicios de salud y de habilitación de los servicios de salud</em>. Diario Oficial No. 51.148.",
+        "url": null
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social de Colombia. (2026, 3 de junio). Resolución 1058 de 2026: por la cual se adopta la Política Nacional de Calidad en Salud 2026–2035 \"Calidad en salud, cuidado integral para una vida saludable\".",
+        "url": "https://www.minsalud.gov.co/salud/CAS/paginas/calidad-atencion-en-salud-home.aspx"
+      },
+      {
+        "text": "Oliveira, N. J., Junior, Riboldi, C. O., Lourenção, D. C. A., Poveda, V. B., Oliveira, J. L. C., & Magalhães, A. M. M. (2024). Challenges of safety culture in surgical center: Mixed methods study. <em>Revista Latino-Americana de Enfermagem, 32</em>, Article e4206.",
+        "url": "https://doi.org/10.1590/1518-8345.7001.4206"
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2009). <em>Conceptual framework for the International Classification for Patient Safety (ICPS), version 1.1: Final technical report</em>. World Alliance for Patient Safety.",
+        "url": null
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2010). <em>WHO patient safety curriculum guide: Session 1—Introduction to patient safety</em>.",
+        "url": "https://www.who.int/patientsafety/research/ps_online_course_session1_intro_1in1_english_2010_en.pdf"
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2018). <em>Continuity and coordination of care: A practice brief to support implementation of the WHO Framework on integrated people-centred health services</em>.",
+        "url": "https://www.who.int/publications/i/item/9789241514033"
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2018). <em>Continuity and coordination of care: A practice brief to support implementation of the WHO Framework on integrated people-centred health services</em>.",
+        "url": "https://apps.who.int/iris/handle/10665/274628"
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2020). <em>Community engagement: A health promotion guide for universal health coverage in the hands of the people</em>.",
+        "url": "https://www.who.int/publications/i/item/9789240010529"
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2020). <em>Handbook for national quality policy and strategy: A practical approach for developing policy and strategy to improve quality of care</em>.",
+        "url": null
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2021). <em>Global patient safety action plan 2021–2030: Towards eliminating avoidable harm in health care</em>.",
+        "url": "https://apps.who.int/iris/rest/bitstreams/1360307/retrieve"
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2022). <em>Marco mundial de competencias para la cobertura sanitaria universal</em>.",
+        "url": "https://iris.who.int/server/api/core/bitstreams/13a452db-bc1e-42ca-b752-b60ad5e0b2f8/content"
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2023, 11 de septiembre). <em>Seguridad del paciente</em>.",
+        "url": "https://www.who.int/es/news-room/fact-sheets/detail/patient-safety"
+      },
+      {
+        "text": "Organización Panamericana de la Salud. (2020). <em>Manual de alfabetización en salud y comunicación efectiva para profesionales sanitarios</em>.",
+        "url": null
+      },
+      {
+        "text": "Resolución 2063 de 2017 [Ministerio de Salud y Protección Social]. Por la cual se adopta la Política de Participación Social en Salud (PPSS). 9 de junio de 2017. Diario Oficial n.º 50.263.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_2063_2017.htm"
+      },
+      {
+        "text": "Superintendencia Nacional de Salud. (2023). <em>Circular Externa 2023151000000010-5 de 2023</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/circular_supersalud_20231510000000105_2023.htm"
+      },
+      {
+        "text": "Wolf, J. A., Niederhauser, V., Marshburn, D., & LaVela, S. L. (2014). Defining patient experience. <em>Patient Experience Journal, 1</em>(1), 7–19.",
+        "url": "https://doi.org/10.35680/2372-0247.1004"
+      },
+      {
+        "text": "World Health Organization. (2024). <em>Global patient safety report 2024</em>.",
+        "url": "https://www.who.int/publications/i/item/9789240095458"
+      }
+    ]
+  },
+  "features": {
+    "creditsPopup": {
+      "enabled": true,
+      "button": "btnDockCredits"
+    },
+    "bibliographyPopup": {
+      "enabled": true,
+      "button": "btnDockBibliography",
+      "showLinks": true
+    },
+    "portadaScroll": {
+      "enabled": true,
+      "button": "btnPortadaScroll"
+    },
+    "enterCarousel": {
+      "enabled": true,
+      "button": "btnEnterCarrusel"
+    },
+    "modalClose": {
+      "enabled": true,
+      "button": "btnModalClose"
+    },
+    "popupClose": {
+      "enabled": true,
+      "button": "btnAmieClose"
+    }
+  }
+}
