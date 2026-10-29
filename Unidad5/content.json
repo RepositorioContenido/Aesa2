@@ -1,0 +1,399 @@
+/**
+ * ============================================================================
+ *  OVA SENA - Unidad 5  ·  ARCHIVO DE CONTENIDO EDITABLE
+ * ============================================================================
+ *
+ *  Todo el contenido del OVA se cambia aquí: textos, imágenes, logos,
+ *  slides, créditos, bibliografía y botones. El código no se toca.
+ *
+ *  CÓMO SE APLICA
+ *    1. Guarde este archivo.
+ *    2. Doble clic en  generar-content.command  (valida y genera js/content.js).
+ *    3. Recargue index.html  (Cmd+Shift+R).
+ *  Si hay un error, el generador lo explica y NO cambia nada.
+ *
+ *  SECCIONES
+ *    courseTitle, unitCode ... título del curso y etiqueta ("Unidad 5")
+ *    branding ................ logos, fondo de la portada, pie de página y
+ *                              título de la pestaña del navegador
+ *    resources ............... un botón del menú por recurso; cada uno abre
+ *                              un modal con sus "slides" (o solo un video
+ *                              de YouTube si tiene "youtubeUrl" y no "slides")
+ *    credits, bibliography ... ventanas de Créditos y Bibliografía del dock
+ *    features ................ prender / apagar botones ("enabled": false)
+ *
+ *  Todos los campos y tipos de slide están explicados en
+ *  MANUAL-IMPLEMENTACION.md. Las imágenes van en assets/.
+ * ============================================================================
+ */
+
+{
+  "courseTitle": "Participación, diálogo social y fortalecimiento del tejido productivo rural y urbano",
+  "unitCode": "Unidad 5",
+  "branding": {
+    "pageTitle": "OVA SENA • Unidad 5",
+    "portadaImage": "assets/portada.jpg",
+    "logoLeft": "assets/log_foe.png",
+    "logoLeftWhite": "assets/log_foe_blanco.png",
+    "logoLeftAlt": "Logo Formación Continua Especializada",
+    "logoRight": "assets/Logo_aesa_color.png",
+    "logoRightWhite": "assets/Logo_aesa_blanco.png",
+    "logoRightAlt": "Logos SENA y AESA",
+    "popupLogoLeft": "assets/25anos.png",
+    "popupLogoLeftAlt": "Más de 25 años",
+    "popupLogoRight": "assets/Hashtag_logo.png",
+    "popupLogoRightAlt": "#FormaciónContinua",
+    "footerNotice": "Las acciones de formación ejecutadas en el marco de la convocatoria DSNFT - 0001 - FCE - 2026 son gratuitas para los trabajadores beneficiarios"
+  },
+  "resources": [
+    {
+      "id": "01",
+      "number": "01",
+      "code": "Reflexión temática",
+      "codeHighlight": "Reto",
+      "label": "Unidad 5",
+      "typeLabel": "Reflexión temática",
+      "shortTitle": "Reflexión temática",
+      "twoLineTitle": "Reflexión<br>temática",
+      "icon": "assets/icons/reto.png",
+      "featuredImage": "assets/btn1.webp",
+      "featuredImageAlt": "Médico dialogando con líderes comunitarios en su territorio",
+      "modalImage": "assets/modal1.jpg",
+      "modalImageAlt": "Profesional de salud dirigiendo un encuentro con mujeres gestantes de la comunidad",
+      "slides": [
+        {
+          "id": "slide-1",
+          "type": "featured",
+          "tabTitle": "Propósito",
+          "tabNum": "01",
+          "badge": null,
+          "category": null,
+          "showFeaturedBadge": false,
+          "title": "Unidad 5. Participación, diálogo social y fortalecimiento del tejido productivo rural y urbano",
+          "paragraph": null,
+          "featuredTitle": "Propósito",
+          "icon": "assets/Unidad5.png",
+          "text": "Activar la experiencia del participante sobre la forma en que su ESE escucha a usuarios, familias y comunidad, y motivarlo a reconocer esa información como una fuente de mejora y de prevención."
+        },
+        {
+          "id": "slide-2",
+          "type": "bento",
+          "variant": "questions",
+          "tabTitle": "Activar la reflexión",
+          "tabNum": "02",
+          "badge": null,
+          "title": "1. Activar la reflexión",
+          "paragraph": "En este momento, los invitamos a reflexionar sobre:",
+          "icon": "assets/2.Actividad_reflexiva.png",
+          "boxes": [
+            {
+              "desc": "Cuando en su institución un usuario presenta un reclamo y recibe respuesta, ¿qué ocurre después? ¿Alguien revisa si el mismo problema se está repitiendo en otros casos?",
+              "span": "col-2"
+            },
+            {
+              "desc": "Piense en los pacientes que regresan por la misma causa porque no entendieron las indicaciones, no obtuvieron la cita de control o no pudieron reclamar el medicamento. ¿En qué momento se pudo advertir la dificultad y quién podía haberla advertido?",
+              "span": "col-2"
+            }
+          ]
+        },
+        {
+          "id": "slide-3",
+          "type": "text",
+          "tabTitle": "Tomar una posición inicial",
+          "tabNum": "03",
+          "badge": null,
+          "title": "2. Tomar una posición inicial",
+          "icon": "assets/3.toma_decisiones.png",
+          "paragraph": null,
+          "highlightLead": "Imagine que en su servicio se reciben, en tres meses, varios reclamos parecidos sobre el egreso: pacientes que salen sin cita de control, fórmulas que no se pueden reclamar y familias que no saben cómo administrar los medicamentos.",
+          "highlightQuestion": "Todos fueron respondidos dentro del plazo. Con la información que tiene hoy, ¿qué haría en esta situación y por qué? ¿Considera que la tarea terminó cuando cada usuario recibió su respuesta? ¿A quién convocaría, qué información buscaría y qué cambiaría primero?<br>Escriba su posición en pocas líneas. No se trata de acertar, sino de dejar registro de cómo analiza hoy el problema para contrastarlo al final de la unidad.",
+          "paragraphs": []
+        },
+        {
+          "id": "slide-4",
+          "type": "bento",
+          "tabTitle": "Conectar con la unidad",
+          "tabNum": "04",
+          "badge": null,
+          "title": "3. Conectar con la unidad",
+          "paragraph": null,
+          "icon": "assets/4.conectar.png",
+          "boxes": [
+            {
+              "desc": "En esta unidad encontrará elementos para revisar su respuesta: reconocerá los mecanismos de participación con que cuenta una ESE y el papel de usuarios, familias y actores comunitarios; diferenciará las peticiones, quejas, reclamos, sugerencias y felicitaciones, y verá cómo convertirlas en información para mejorar; y aprenderá a construir acuerdos de cuidado que sostengan la atención más allá del egreso.",
+              "span": "col-2"
+            },
+            {
+              "desc": "El video conceptual presenta estas ideas en una ruta breve; la cartilla y la lectura las profundizan, y la actividad práctica le permitirá aplicarlas a un caso. Al terminar, vuelva a su posición inicial y pregúntese qué decidiría ahora y por qué.<br><br>Por ello, los invitamos a explorar este material. ¡Bienvenidos!",
+              "span": "col-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "number": "02",
+      "code": "Video conceptual",
+      "label": "Unidad 5",
+      "typeLabel": "Video conceptual",
+      "shortTitle": "Video conceptual",
+      "twoLineTitle": "Video<br>conceptual",
+      "icon": "assets/icons/video.png",
+      "featuredImage": "assets/btn2.webp",
+      "featuredImageAlt": "Equipo de salud y comunidad revisando una ruta de actuación preventiva",
+      "modalImage": "assets/modal1.jpg",
+      "modalImageAlt": "Profesional de salud dirigiendo un encuentro con mujeres gestantes de la comunidad",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VuUksXm3RsA"
+    },
+    {
+      "id": "03",
+      "number": "03",
+      "code": "Actividad teórica",
+      "label": "Unidad 5.",
+      "typeLabel": "Actividad teórica",
+      "hideResourceTitle": true,
+      "shortTitle": "Actividad teórica",
+      "twoLineTitle": "Actividad<br>teórica",
+      "icon": "assets/icons/Act_teorica.png",
+      "featuredImage": "assets/btn3.webp",
+      "featuredImageAlt": "Profesionales tomando muestras de agua en una fuente comunitaria",
+      "modalImage": "assets/modal2.jpg",
+      "modalImageAlt": "Equipo del hospital y lideresa comunitaria revisando un mapa de la red de apoyo",
+      "slides": [
+        {
+          "id": "r3-slide-1",
+          "type": "text",
+          "variant": "cta-hero",
+          "tabTitle": "Actividad",
+          "tabNum": "01",
+          "hideHeader": true,
+          "heroIcon": "assets/icons/Act_teorica.png",
+          "icon": "assets/icons/Act_teorica.png",
+          "kicker": "LECTURA",
+          "headline": "Las reclamaciones de los pacientes: de trámite administrativo a fuente de seguridad",
+          "paragraphs": [
+            "Explore los conceptos que le permitirán fortalecer sus conocimientos.",
+            "Dé clic en el botón para comenzar."
+          ],
+          "actionUrl": "https://lms.eduvirtualaesa.com/mod/quiz/view.php?id=68",
+          "actionText": "Ir a la actividad"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "number": "04",
+      "code": "Actividad práctica",
+      "label": "Unidad 5.",
+      "typeLabel": "Actividad práctica",
+      "hideResourceTitle": true,
+      "shortTitle": "Actividad práctica",
+      "twoLineTitle": "Actividad<br>práctica",
+      "icon": "assets/icons/practica.png",
+      "featuredImage": "assets/btn4.webp",
+      "featuredImageAlt": "Profesional de salud orientando a familias en una jornada comunitaria",
+      "modalImage": "assets/modal3.jpg",
+      "modalImageAlt": "Enfermera conversando con una familia y una agente comunitaria",
+      "slides": [
+        {
+          "id": "r4-slide-1",
+          "type": "text",
+          "variant": "cta-hero",
+          "tabTitle": "Actividad",
+          "tabNum": "01",
+          "hideHeader": true,
+          "heroIcon": "assets/icons/practica.png",
+          "icon": "assets/icons/practica.png",
+          "kicker": "TAREA INDIVIDUAL",
+          "headline": "Del reclamo a la prevención: relacionar situaciones de una ESE con la actuación que corresponde",
+          "paragraphs": [
+            "¡Es momento de aplicar lo aprendido!",
+            "Dé clic en el botón y ponga a prueba sus conocimientos."
+          ],
+          "actionUrl": "https://lms.eduvirtualaesa.com/mod/quiz/view.php?id=69",
+          "actionText": "Ir a la actividad"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "number": "05",
+      "code": "Unidad 5. Participación, diálogo social y fortalecimiento del tejido productivo rural y urbano",
+      "label": "Unidad 5",
+      "typeLabel": "Podcast: pasos para la acción",
+      "shortTitle": "Podcast de acción",
+      "twoLineTitle": "Podcast<br>de&nbsp;acción",
+      "icon": "assets/icons/podcast.png",
+      "featuredImage": "assets/btn5.webp",
+      "featuredImageAlt": "Usuarios y equipo de salud construyendo juntos un mapa de experiencia",
+      "modalImage": "assets/modal4.jpg",
+      "modalImageAlt": "Gestante, partera tradicional y profesional de salud revisando material educativo",
+      "slides": [
+        {
+          "id": "slide-8",
+          "type": "podcast",
+          "tabTitle": "Podcast",
+          "tabNum": "01",
+          "badge": "AUDIO",
+          "icon": "assets/icons/podcast.png",
+          "title": "Propósito del podcast",
+          "playerTitle": "Unidad 5. Participación, diálogo social y fortalecimiento del tejido productivo rural y urbano",
+          "paragraph": "Convertir los aprendizajes teóricos de la unidad en orientaciones concretas para el puesto de trabajo, abordando la participación social en salud, la comunicación institucional, la gestión constructiva de inconformidades y la continuidad del cuidado.",
+          "description": "Podcast: pasos para la acción",
+          "duration": "03:15",
+          "audioSrc": "audios/FCE-AESA-AF2-Podcast-UT.mp3"
+        }
+      ]
+    }
+  ],
+  "credits": {
+    "title": "Créditos",
+    "iconSrc": "assets/Creditos.png",
+    "supportImageSrc": "assets/3.png",
+    "supportImageAlt": "Equipo de desarrollo y diseño pedagógico",
+    "institutionalLines": [
+      "MINISTERIO DEL TRABAJO Y SEGURIDAD SOCIAL",
+      "SERVICIO NACIONAL DE APRENDIZAJE (SENA)",
+      "ASOCIACIÓN DE EMPRESAS SOCIALES DEL ESTADO DE ANTIOQUIA (AESA)"
+    ],
+    "executiveDirector": "",
+    "edition": "octubre/2026",
+    "city": "",
+    "groupHeader": "GRUPO DE TRABAJO",
+    "sections": [
+      {
+        "role": "Coordinación general:",
+        "names": "Fundación Visión Salud"
+      },
+      {
+        "role": "Equipo Técnico Fundación Visión Salud:",
+        "names": "Paola Rueda Casallas"
+      },
+      {
+        "role": "Asesoría y diseño pedagógico:",
+        "names": "Alba Lucía Núñez G. - Samir Balanta Perea"
+      },
+      {
+        "role": "Adecuación y corrección de estilo:",
+        "names": "José Gabriel Ortiz Abella"
+      },
+      {
+        "role": "Ilustraciones y diseño digital:",
+        "names": "Liam Pamela Hermida García - William Gonzáles"
+      },
+      {
+        "role": "Diagramación:",
+        "names": "John Carlos Jiménez Díaz"
+      },
+      {
+        "role": "Realización audiovisual:",
+        "names": "Oscar Javier Rojas Pulido"
+      },
+      {
+        "role": "Director de virtualización y plataforma educativa:",
+        "names": "Julián Andrés Mora Gómez"
+      },
+      {
+        "role": "Derechos de autor y licencias:",
+        "names": "SENA"
+      }
+    ],
+    "legalNotice": "Las acciones de formación ejecutadas en el marco de la convocatoria DSNFT - 0001 - FCE - 2026 son gratuitas para los trabajadores beneficiarios"
+  },
+  "bibliography": {
+    "title": "Bibliografía",
+    "iconSrc": "assets/bibliografia.png",
+    "supportImageSrc": "assets/7.png",
+    "supportImageAlt": "Biblioteca académica y centro de documentación",
+    "heading": "Bibliografía",
+    "description": "Fuentes documentales, lecturas y recursos recomendados para la fundamentación conceptual del curso:",
+    "linkText": "Consultar recurso fuente",
+    "entries": [
+      {
+        "text": "Añel-Rodríguez, R. M., Cambero-Serrano, M. I., & Irurzun-Zuazabal, E. (2015). Análisis de las reclamaciones de pacientes en Atención Primaria: una oportunidad para mejorar la seguridad clínica. <em>Revista de Calidad Asistencial, 30</em>(5), 220–225.",
+        "url": "https://doi.org/10.1016/j.cali.2015.04.007"
+      },
+      {
+        "text": "Brach, C. (Ed.). (2023). <em>AHRQ health literacy universal precautions toolkit</em> (3.ª ed., AHRQ Publication n.º 23-0075). Agency for Healthcare Research and Quality.",
+        "url": "https://www.ahrq.gov/health-literacy/improve/precautions/index.html"
+      },
+      {
+        "text": "Decreto 1757 de 1994. Por el cual se organizan y establecen las modalidades y formas de participación social en la prestación de servicios de salud.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/decreto_1757_1994.htm"
+      },
+      {
+        "text": "Gillespie, A., & Reader, T. W. (2018). Patient-centered insights: Using health care complaints to reveal hot spots and blind spots in quality and safety. <em>The Milbank Quarterly, 96</em>(3), 530–567.",
+        "url": "https://doi.org/10.1111/1468-0009.12338"
+      },
+      {
+        "text": "Haggerty, J. L., Reid, R. J., Freeman, G. K., Starfield, B. H., Adair, C. E., & McKendry, R. (2003). Continuity of care: A multidisciplinary review. <em>BMJ, 327</em>(7425), 1219–1221.",
+        "url": "https://doi.org/10.1136/bmj.327.7425.1219"
+      },
+      {
+        "text": "Ley 1474 de 2011. Por la cual se dictan normas orientadas a fortalecer los mecanismos de prevención, investigación y sanción de actos de corrupción y la efectividad del control de la gestión pública. 12 de julio de 2011. Diario Oficial n.º 48.128.",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1474_2011.html"
+      },
+      {
+        "text": "Ley 1751 de 2015. Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones. 16 de febrero de 2015. Diario Oficial n.º 49.427.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/ley_1751_2015.htm"
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2018). <em>Continuity and coordination of care: A practice brief to support implementation of the WHO Framework on integrated people-centred health services</em>.",
+        "url": "https://www.who.int/publications/i/item/9789241514033"
+      },
+      {
+        "text": "Organización Mundial de la Salud. (2020). <em>Community engagement: A health promotion guide for universal health coverage in the hands of the people</em>.",
+        "url": "https://www.who.int/publications/i/item/9789240010529"
+      },
+      {
+        "text": "Resolución 2063 de 2017 [Ministerio de Salud y Protección Social]. Por la cual se adopta la Política de Participación Social en Salud (PPSS). 9 de junio de 2017. Diario Oficial n.º 50.263.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/resolucion_minsaludps_2063_2017.htm"
+      },
+      {
+        "text": "Superintendencia Nacional de Salud. (2023). <em>Circular Externa 2023151000000010-5 de 2023</em>.",
+        "url": "https://normograma.supersalud.gov.co/compilacion/docs/circular_supersalud_20231510000000105_2023.htm"
+      },
+      {
+        "text": "Wolf, J. A., Niederhauser, V., Marshburn, D., & LaVela, S. L. (2014). Defining patient experience. <em>Patient Experience Journal, 1</em>(1), 7–19.",
+        "url": "https://doi.org/10.35680/2372-0247.1004"
+      }
+    ]
+  },
+  "features": {
+    "creditsPopup": {
+      "enabled": true,
+      "button": "btnDockCredits"
+    },
+    "bibliographyPopup": {
+      "enabled": true,
+      "button": "btnDockBibliography",
+      "showLinks": true
+    },
+    "carouselNav": {
+      "enabled": true,
+      "prevButton": "btnPrevResource",
+      "nextButton": "btnNextResource"
+    },
+    "portadaScroll": {
+      "enabled": true,
+      "button": "btnPortadaScroll"
+    },
+    "enterCarousel": {
+      "enabled": true,
+      "button": "btnEnterCarrusel"
+    },
+    "circularImage": {
+      "enabled": true,
+      "button": "btnCircularImageTrigger"
+    },
+    "modalClose": {
+      "enabled": true,
+      "button": "btnModalClose"
+    },
+    "popupClose": {
+      "enabled": true,
+      "button": "btnAmieClose"
+    }
+  }
+}

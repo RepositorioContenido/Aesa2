@@ -1,0 +1,448 @@
+/**
+ * ===========================================================================
+ *  ARCHIVO GENERADO - NO EDITAR A MANO
+ * ===========================================================================
+ *  Fuente de verdad: content.json     Generador: ./generar-content.command
+ *
+ *  Para cambiar contenido (imagenes, titulos, slides, botones, links),
+ *  edita  content.json  y corré el generador.
+ * ===========================================================================
+ *
+ *  contentSha256: 74725931
+ *  generatedAt:   2026-10-29T19:51:04.346Z
+ */
+window.OVA_CONTENT_META = { contentSha256: "74725931", generatedAt: "2026-10-29T19:51:04.346Z" };
+window.OVA_CONTENT = {
+  "courseTitle": "Atención centrada en las personas y comunicación segura",
+  "unitCode": "Unidad 3",
+  "branding": {
+    "pageTitle": "OVA SENA • Unidad 3",
+    "portadaImage": "assets/portada.jpg",
+    "logoLeft": "assets/log_foe.png",
+    "logoLeftWhite": "assets/log_foe_blanco.png",
+    "logoLeftAlt": "Logo Formación Continua Especializada",
+    "logoRight": "assets/Logo_aesa_color.png",
+    "logoRightWhite": "assets/Logo_aesa_blanco.png",
+    "logoRightAlt": "Logos SENA y AESA",
+    "popupLogoLeft": "assets/25anos.png",
+    "popupLogoLeftAlt": "Más de 25 años",
+    "popupLogoRight": "assets/Hashtag_logo.png",
+    "popupLogoRightAlt": "#FormaciónContinua",
+    "footerNotice": "Las acciones de formación ejecutadas en el marco de la convocatoria DSNFT - 0001 - FCE - 2026 son gratuitas para los trabajadores beneficiarios"
+  },
+  "resources": [
+    {
+      "id": "01",
+      "number": "01",
+      "code": "Reflexión sobre el Reto",
+      "codeHighlight": "Reto",
+      "label": "Unidad 3",
+      "typeLabel": "Reflexión sobre el reto",
+      "shortTitle": "Reflexión del reto",
+      "twoLineTitle": "Reflexión<br>del&nbsp;reto",
+      "icon": "assets/icons/reto.png",
+      "featuredImage": "assets/btn1.webp",
+      "featuredImageAlt": "Directivo y médica revisando escenarios e indicadores en una tableta",
+      "modalImage": "assets/modal1.jpg",
+      "modalImageAlt": "Médico y enfermera revisando un formato de seguimiento",
+      "slides": [
+        {
+          "id": "slide-1",
+          "type": "featured",
+          "tabTitle": "Propósito",
+          "tabNum": "01",
+          "badge": null,
+          "category": null,
+          "showFeaturedBadge": false,
+          "title": "Unidad 3. Atención centrada en las personas y comunicación segura",
+          "paragraph": null,
+          "featuredTitle": "Propósito",
+          "icon": "assets/unidad3.png",
+          "text": "Reconocer la importancia de la mejora continua y de una comunicación efectiva como herramientas para cerrar brechas de calidad y reducir riesgos en la atención en salud."
+        },
+        {
+          "id": "slide-2",
+          "type": "text",
+          "tabTitle": "Retomar el reto",
+          "tabNum": "02",
+          "badge": null,
+          "title": "1. Retomar el reto",
+          "icon": "assets/1.retomar.png",
+          "paragraph": null,
+          "paragraphs": [
+            "El reto invita a eliminar acciones inseguras prevenibles mediante la mejora continua. Para ello, las instituciones necesitan identificar problemas, medir resultados, implementar cambios y fortalecer la comunicación entre los actores que participan en la atención."
+          ],
+          "image": "assets/retomar_u3.jpg",
+          "imageAlt": "Equipo directivo revisando indicadores en una reunión",
+          "imageCaption": ""
+        },
+        {
+          "id": "slide-3",
+          "type": "bento",
+          "variant": "questions",
+          "tabTitle": "Activar la reflexión",
+          "tabNum": "03",
+          "badge": null,
+          "title": "2. Activar la reflexión",
+          "paragraph": "Los invitamos a analizar sobre:",
+          "icon": "assets/2.Actividad_reflexiva.png",
+          "boxes": [
+            {
+              "desc": "¿Qué problemas de calidad se presentan con frecuencia en mi servicio y por qué continúan ocurriendo?",
+              "span": "col-2"
+            },
+            {
+              "desc": "¿Cómo sé que una acción de mejora implementada realmente produjo cambios positivos en la atención?",
+              "span": "col-2"
+            }
+          ]
+        },
+        {
+          "id": "slide-4",
+          "type": "text",
+          "tabTitle": "Tomar una posición inicial",
+          "tabNum": "04",
+          "badge": null,
+          "title": "3. Tomar una posición inicial",
+          "icon": "assets/3.toma_decisiones.png",
+          "paragraph": null,
+          "highlightLead": "Piense en una dificultad cotidiana de su E.S.E. relacionada con la calidad o la seguridad del paciente.",
+          "highlightQuestion": "Con la información que tiene actualmente, ¿qué cambio propondría para mejorarla y cómo comprobaría que realmente funcionó?",
+          "paragraphs": []
+        },
+        {
+          "id": "slide-5",
+          "type": "bento",
+          "tabTitle": "Conectar con la unidad",
+          "tabNum": "05",
+          "badge": null,
+          "title": "4. Conectar con la unidad",
+          "paragraph": null,
+          "icon": "assets/4.conectar.png",
+          "boxes": [
+            {
+              "desc": "Durante esta unidad estudiará el ciclo PHVA/PHEA, los indicadores de calidad, la priorización de problemas y los planes de mejoramiento. También conocerá herramientas que facilitan la toma de decisiones basadas en datos.",
+              "span": "col-2"
+            },
+            {
+              "desc": "Al finalizar, contará con métodos prácticos para impulsar mejoras sostenibles y evaluar objetivamente sus resultados dentro de la institución. También, se encontrará con un video conceptual que desarrolla los puntos trascendentales de la unidad, con ejemplos reales, además de un mapa conceptual con aprendizaje sobre el PHVA/PHEA y otras actividades interesantes que generan nuevos conocimientos y refuerzan otros para ser aplicados en la E.S.E. ¡Explórelos!",
+              "span": "col-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "number": "02",
+      "code": "Video conceptual",
+      "label": "Unidad 3",
+      "typeLabel": "Video conceptual",
+      "shortTitle": "Video conceptual",
+      "twoLineTitle": "Video<br>conceptual",
+      "icon": "assets/icons/video.png",
+      "featuredImage": "assets/btn2.webp",
+      "featuredImageAlt": "Directiva y médico revisando un plan con tableros de indicadores al fondo",
+      "modalImage": "assets/modal1.jpg",
+      "modalImageAlt": "Médico y enfermera revisando un formato de seguimiento",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VuUksXm3RsA"
+    },
+    {
+      "id": "03",
+      "number": "03",
+      "code": "Actividad teórica",
+      "label": "Unidad 3.",
+      "typeLabel": "Actividad teórica",
+      "hideResourceTitle": true,
+      "shortTitle": "Actividad teórica",
+      "twoLineTitle": "Actividad<br>teórica",
+      "icon": "assets/icons/Act_teorica.png",
+      "featuredImage": "assets/btn3.webp",
+      "featuredImageAlt": "Directiva señalando resultados mientras un médico revisa datos en el portátil",
+      "modalImage": "assets/modal2.jpg",
+      "modalImageAlt": "Equipo de salud analizando un mapa de experiencia del paciente",
+      "slides": [
+        {
+          "id": "r3-slide-1",
+          "type": "text",
+          "variant": "cta-hero",
+          "tabTitle": "Actividad",
+          "tabNum": "01",
+          "hideHeader": true,
+          "heroIcon": "assets/icons/Act_teorica.png",
+          "icon": "assets/icons/Act_teorica.png",
+          "kicker": "MAPA CONCEPTUAL",
+          "headline": "Mapa conceptual",
+          "paragraphs": [
+            "Explore los conceptos que le permitirán fortalecer sus conocimientos.",
+            "Dé clic en el botón para comenzar."
+          ],
+          "actionUrl": "https://lms.eduvirtualaesa.com/mod/quiz/view.php?id=64",
+          "actionText": "Ir a la actividad"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "number": "04",
+      "code": "Actividad práctica",
+      "label": "Unidad 3.",
+      "typeLabel": "Actividad práctica",
+      "hideResourceTitle": true,
+      "shortTitle": "Actividad práctica",
+      "twoLineTitle": "Actividad<br>práctica",
+      "icon": "assets/icons/practica.png",
+      "featuredImage": "assets/btn4.webp",
+      "featuredImageAlt": "Equipo de salud trabajando en el mapa del recorrido del paciente",
+      "modalImage": "assets/modal3.jpg",
+      "modalImageAlt": "Equipo trabajando en un taller de mejora con notas adhesivas",
+      "slides": [
+        {
+          "id": "r4-slide-1",
+          "type": "text",
+          "variant": "cta-hero",
+          "tabTitle": "Actividad",
+          "tabNum": "01",
+          "hideHeader": true,
+          "heroIcon": "assets/icons/practica.png",
+          "icon": "assets/icons/practica.png",
+          "kicker": "BÚSQUEDA, ANÁLISIS Y SÍNTESIS DE INFORMACIÓN",
+          "headline": "Búsqueda, análisis y síntesis de información.",
+          "paragraphs": [
+            "¡Es momento de aplicar lo aprendido!",
+            "Dé clic en el botón y ponga a prueba sus conocimientos."
+          ],
+          "actionUrl": "https://lms.eduvirtualaesa.com/mod/quiz/view.php?id=65",
+          "actionText": "Ir a la actividad"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "number": "05",
+      "code": "Unidad 3. Atención centrada en las personas y comunicación segura - Mejoramiento continuo e indicadores de calidad",
+      "label": "Unidad 3",
+      "typeLabel": "Podcast: pasos para la acción",
+      "shortTitle": "Podcast de acción",
+      "twoLineTitle": "Podcast<br>de&nbsp;acción",
+      "icon": "assets/icons/podcast.png",
+      "featuredImage": "assets/btn5.webp",
+      "featuredImageAlt": "Médico y directiva revisando un documento institucional",
+      "modalImage": "assets/modal4.jpg",
+      "modalImageAlt": "Equipo de salud revisando información de calidad",
+      "slides": [
+        {
+          "id": "slide-8",
+          "type": "podcast",
+          "tabTitle": "Podcast",
+          "tabNum": "01",
+          "badge": "AUDIO",
+          "icon": "assets/icons/podcast.png",
+          "title": "Propósito del podcast",
+          "playerTitle": "Unidad 3. Atención centrada en las personas y comunicación segura - Mejoramiento continuo e indicadores de calidad",
+          "paragraph": "Capacitar al talento humano de la E.S.E. en la aplicación del ciclo de mejoramiento continuo (PHVA / PHEA), la formulación técnica de indicadores de calidad y el uso de la matriz de priorización y el protocolo SPIKES para la gestión proactiva de problemas y comunicación empática de situaciones críticas.",
+          "description": "Podcast: pasos para la acción",
+          "duration": "03:15",
+          "audioSrc": "audios/FCE-AESA-AF2-Podcast-U3.mp3"
+        }
+      ]
+    }
+  ],
+  "credits": {
+    "title": "Créditos",
+    "iconSrc": "assets/Creditos.png",
+    "supportImageSrc": "assets/3.png",
+    "supportImageAlt": "Equipo de desarrollo y diseño pedagógico",
+    "institutionalLines": [
+      "MINISTERIO DEL TRABAJO Y SEGURIDAD SOCIAL",
+      "SERVICIO NACIONAL DE APRENDIZAJE (SENA)",
+      "ASOCIACIÓN DE EMPRESAS SOCIALES DEL ESTADO DE ANTIOQUIA (AESA)"
+    ],
+    "executiveDirector": "",
+    "edition": "octubre/2026",
+    "city": "",
+    "groupHeader": "GRUPO DE TRABAJO",
+    "sections": [
+      {
+        "role": "Coordinación general:",
+        "names": "Fundación Visión Salud"
+      },
+      {
+        "role": "Equipo Técnico Fundación Visión Salud:",
+        "names": "Paola Rueda Casallas"
+      },
+      {
+        "role": "Asesoría y diseño pedagógico:",
+        "names": "Alba Lucía Núñez G. - Samir Balanta Perea"
+      },
+      {
+        "role": "Adecuación y corrección de estilo:",
+        "names": "José Gabriel Ortiz Abella"
+      },
+      {
+        "role": "Ilustraciones y diseño digital:",
+        "names": "Liam Pamela Hermida García - William Gonzáles"
+      },
+      {
+        "role": "Diagramación:",
+        "names": "John Carlos Jiménez Díaz"
+      },
+      {
+        "role": "Realización audiovisual:",
+        "names": "Oscar Javier Rojas Pulido"
+      },
+      {
+        "role": "Director de virtualización y plataforma educativa:",
+        "names": "Julián Andrés Mora Gómez"
+      },
+      {
+        "role": "Derechos de autor y licencias:",
+        "names": "SENA"
+      }
+    ],
+    "legalNotice": "Las acciones de formación ejecutadas en el marco de la convocatoria DSNFT - 0001 - FCE - 2026 son gratuitas para los trabajadores beneficiarios"
+  },
+  "bibliography": {
+    "title": "Bibliografía",
+    "iconSrc": "assets/bibliografia.png",
+    "supportImageSrc": "assets/7.png",
+    "supportImageAlt": "Biblioteca académica y centro de documentación",
+    "heading": "Bibliografía",
+    "description": "Fuentes documentales, lecturas y recursos recomendados para la fundamentación conceptual del curso:",
+    "linkText": "Consultar recurso fuente",
+    "entries": [
+      {
+        "text": "Agency for Healthcare Research and Quality. (2018, mayo). <em>Patient safety resources</em>.",
+        "url": "https://www.ahrq.gov/"
+      },
+      {
+        "text": "Agency for Healthcare Research and Quality. (2021). <em>Patient safety indicators technical specifications: Version 2021</em>.",
+        "url": "https://qualityindicators.ahrq.gov/Archive/psi_techspec/icd10_v2021"
+      },
+      {
+        "text": "Atlantis University. (s. f.). <em>La importancia de la comunicación efectiva en los hospitales: Casos de éxito y mejores prácticas</em>.",
+        "url": "https://atlantisuniversity.edu/es/au_blog/comunicacion-efectiva-en-salud/"
+      },
+      {
+        "text": "Baile, W. F., Buckman, R., Lenzi, R., Glober, G., Beale, E. A., & Kudelka, A. P. (2000). SPIKES—A six-step protocol for delivering bad news: Application to the patient with cancer. <em>The Oncologist, 5</em>(4), 302–311.",
+        "url": "https://doi.org/10.1634/theoncologist.5-4-302"
+      },
+      {
+        "text": "Baltazar-Gómez, D. Y., Rosas-González, E., García Rodríguez, I., Ibarra-Gutiérrez, M. J., & Pirez-Lindoro, M. Á. (2022). Relación entre cultura organizacional, satisfacción laboral y desempeño en trabajadores de salud en Querétaro, México. <em>SANUS, 7</em>, artículo e246.",
+        "url": "http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-60942022000100112"
+      },
+      {
+        "text": "Bascuñán R., M. L., & Luengo-Charath, M. X. (2022). Protocolos de comunicación de malas noticias en salud: Limitaciones, desafíos y propuestas. <em>Revista Médica de Chile, 150</em>(9), 1206–1213.",
+        "url": null
+      },
+      {
+        "text": "Bascuñán, M. L., Flores, C., Cantuarias, P., & Cúneo, F. (2022). Comunicación de malas noticias en salud: Protocolos y recomendaciones. <em>Revista Médica de Chile, 150</em>(7), 918–924.",
+        "url": null
+      },
+      {
+        "text": "Bermejo, J. C., Villacieros, M., Carabias, R., Sánchez, E., & Díaz-Albo, B. (2013). Conspiración del silencio en familiares y pacientes al final de la vida ingresados en una unidad de cuidados paliativos: Nivel de información y actitudes observadas. <em>Medicina Paliativa, 20</em>(2), 49–59.",
+        "url": null
+      },
+      {
+        "text": "Blais, R., Bruno, D., Bartlett, G., & Tamblyn, R. (2008). Can we use incident reports to detect hospital adverse events? <em>Journal of Patient Safety, 4</em>(1), 9–12.",
+        "url": null
+      },
+      {
+        "text": "Borjalilu, S., Karbakhsh, M., Hosseini, M., Sadighi, S., & Kaviani, A. (2018). Clinicians’ practice and perception of disclosure model for breaking bad news to breast cancer patients. <em>Archives of Breast Cancer, 5</em>(1), 15–25.",
+        "url": null
+      },
+      {
+        "text": "Dirección de Empleo, Trabajo y Asuntos Sociales, Comité de Salud. (2017). <em>Patient safety data systems in the OECD: A report of a joint Irish Department of Health… OECD Conference</em>.",
+        "url": "https://www.oecd.org/health/health-systems/38705981/2017.pdf"
+      },
+      {
+        "text": "Donabedian, A. (2005). El papel de la calidad en la administración de la atención médica. <em>Salud Pública de México, 47</em>(4), 318–326.",
+        "url": null
+      },
+      {
+        "text": "Federación Colombiana de Obstetricia y Ginecología. (2026). <em>Cómo dar malas noticias en salud con el protocolo SPIKES</em>.",
+        "url": "https://contenido.fepasde.com/protocolo-spikes"
+      },
+      {
+        "text": "González-Gutiérrez, A., & Rodríguez-López, M. (2024). Influencia de la cultura organizacional en la innovación y el cambio en las instituciones de salud. <em>Journal of Science and Research, 9</em>(1), 1–15.",
+        "url": "https://revistas.utb.edu.ec/index.php/sr/article/view/3347"
+      },
+      {
+        "text": "Griffin, F. A., & Resar, R. K. (2009). <em>IHI global trigger tool for measuring adverse events</em> (2.ª ed.). Institute for Healthcare Improvement.",
+        "url": null
+      },
+      {
+        "text": "Institute for Healthcare Improvement. (2021a). <em>Introduction to trigger tools for identifying adverse events</em>.",
+        "url": "https://www.ihi.org/library/tools/introduction-trigger-tools-identifying-adverse-events"
+      },
+      {
+        "text": "Institute for Healthcare Improvement. (2021b). <em>Uso del Model for Improvement para mejorar la salud, el bienestar y la equidad</em>.",
+        "url": "https://www.ihi.org/es/library/blog/using-model-improvement-improve-health-well-being-and-equity"
+      },
+      {
+        "text": "Institute for Healthcare Improvement. (s. f.). <em>Model for improvement: Establishing measures</em>.",
+        "url": "https://www.ihi.org/library/model-for-improvement/establishing-measures"
+      },
+      {
+        "text": "Marschollek, P., Bąkowska, K., Bąkowski, W., Marschollek, K., & Tarkowski, R. (2019). Oncologists and breaking bad news—from the informed patients’ point of view: The evaluation of the SPIKES protocol implementation. <em>Journal of Cancer Education, 34</em>(2), 375–380.",
+        "url": null
+      },
+      {
+        "text": "Ministerio de Salud y Protección Social. (2026, 3 de junio). <em>Resolución 1058 de 2026. Por la cual se adopta e implementa la Política Nacional de Calidad en Salud 2026–2035 «Calidad en salud, cuidado integral para una vida saludable»</em>. Diario Oficial n.º 53.512.",
+        "url": "https://sisjur.bogotajuridica.gov.co/sisjur/normas/Norma1.jsp?i=193347"
+      },
+      {
+        "text": "Oliveira, N. J., Jr., Riboldi, C. O., Lourenção, D. C. A., Poveda, V. B., Oliveira, J. L. C., & Magalhães, A. M. M. (2024). Challenges of safety culture in surgical center: Mixed methods study. <em>Revista Latino-Americana de Enfermagem, 32</em>, artículo e4206.",
+        "url": "https://doi.org/10.1590/1518-8345.7001.4206"
+      },
+      {
+        "text": "Presidencia de la República de Colombia. (2006, 3 de abril). <em>Decreto 1011 de 2006. Por el cual se establece el Sistema Obligatorio de Garantía de Calidad de la Atención de Salud del Sistema General de Seguridad Social en Salud</em>. Diario Oficial n.º 46.230.",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=19975"
+      },
+      {
+        "text": "Saturno Hernández, P. J. (2018). <em>Cómo lograr la excelencia en la atención sanitaria: Construcción, implementación y evaluación de vías clínicas</em>. Instituto Nacional de Salud Pública.",
+        "url": "https://www.insp.mx/resources/images/stories/2018/Docs/180914_ManualVias_Clinicas.pdf"
+      },
+      {
+        "text": "World Health Organization. (2020). <em>Patient safety incident reporting and learning systems: Technical report and guidance</em>.",
+        "url": null
+      }
+    ]
+  },
+  "features": {
+    "creditsPopup": {
+      "enabled": true,
+      "button": "btnDockCredits"
+    },
+    "bibliographyPopup": {
+      "enabled": true,
+      "button": "btnDockBibliography",
+      "showLinks": true
+    },
+    "carouselNav": {
+      "enabled": true,
+      "prevButton": "btnPrevResource",
+      "nextButton": "btnNextResource"
+    },
+    "portadaScroll": {
+      "enabled": true,
+      "button": "btnPortadaScroll"
+    },
+    "enterCarousel": {
+      "enabled": true,
+      "button": "btnEnterCarrusel"
+    },
+    "circularImage": {
+      "enabled": true,
+      "button": "btnCircularImageTrigger"
+    },
+    "modalClose": {
+      "enabled": true,
+      "button": "btnModalClose"
+    },
+    "popupClose": {
+      "enabled": true,
+      "button": "btnAmieClose"
+    }
+  }
+};
