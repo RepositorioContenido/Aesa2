@@ -8,10 +8,10 @@
  *  edita  content.json  y corré el generador.
  * ===========================================================================
  *
- *  contentSha256: 74725931
- *  generatedAt:   2026-10-29T19:51:04.346Z
+ *  contentSha256: 633908ba
+ *  generatedAt:   2026-11-02T04:17:56.171Z
  */
-window.OVA_CONTENT_META = { contentSha256: "74725931", generatedAt: "2026-10-29T19:51:04.346Z" };
+window.OVA_CONTENT_META = { contentSha256: "633908ba", generatedAt: "2026-11-02T04:17:56.175Z" };
 window.OVA_CONTENT = {
   "courseTitle": "Atención centrada en las personas y comunicación segura",
   "unitCode": "Unidad 3",
@@ -145,7 +145,7 @@ window.OVA_CONTENT = {
       "featuredImageAlt": "Directiva y médico revisando un plan con tableros de indicadores al fondo",
       "modalImage": "assets/modal1.jpg",
       "modalImageAlt": "Médico y enfermera revisando un formato de seguimiento",
-      "youtubeUrl": "https://www.youtube.com/watch?v=VuUksXm3RsA"
+      "youtubeUrl": "https://www.youtube.com/watch?v=Qh_PedgOHkE"
     },
     {
       "id": "03",
