@@ -8,10 +8,10 @@
  *  edita  content.json  y corré el generador.
  * ===========================================================================
  *
- *  contentSha256: 7935f852
- *  generatedAt:   2026-10-29T19:51:04.460Z
+ *  contentSha256: 861b5c4d
+ *  generatedAt:   2026-11-02T04:22:49.768Z
  */
-window.OVA_CONTENT_META = { contentSha256: "7935f852", generatedAt: "2026-10-29T19:51:04.460Z" };
+window.OVA_CONTENT_META = { contentSha256: "861b5c4d", generatedAt: "2026-11-02T04:22:49.772Z" };
 window.OVA_CONTENT = {
   "courseTitle": "Participación, diálogo social y fortalecimiento del tejido productivo rural y urbano",
   "unitCode": "Unidad 5",
@@ -129,7 +129,7 @@ window.OVA_CONTENT = {
       "featuredImageAlt": "Equipo de salud y comunidad revisando una ruta de actuación preventiva",
       "modalImage": "assets/modal1.jpg",
       "modalImageAlt": "Profesional de salud dirigiendo un encuentro con mujeres gestantes de la comunidad",
-      "youtubeUrl": "https://www.youtube.com/watch?v=VuUksXm3RsA"
+      "youtubeUrl": "https://www.youtube.com/watch?v=rdxERXxKPfw"
     },
     {
       "id": "03",
