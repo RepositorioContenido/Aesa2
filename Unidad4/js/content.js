@@ -8,10 +8,10 @@
  *  edita  content.json  y corré el generador.
  * ===========================================================================
  *
- *  contentSha256: ae5bf63a
- *  generatedAt:   2026-10-29T19:51:04.402Z
+ *  contentSha256: b5148e85
+ *  generatedAt:   2026-11-02T04:21:22.064Z
  */
-window.OVA_CONTENT_META = { contentSha256: "ae5bf63a", generatedAt: "2026-10-29T19:51:04.402Z" };
+window.OVA_CONTENT_META = { contentSha256: "b5148e85", generatedAt: "2026-11-02T04:21:22.069Z" };
 window.OVA_CONTENT = {
   "courseTitle": "Coordinación de transiciones asistenciales y continuidad segura del cuidado",
   "unitCode": "Unidad 4",
@@ -145,7 +145,7 @@ window.OVA_CONTENT = {
       "featuredImageAlt": "Enfermera guiando a un usuario en un quiosco digital del hospital",
       "modalImage": "assets/modal1.jpg",
       "modalImageAlt": "Enfermera revisando las indicaciones de egreso con un paciente hospitalizado",
-      "youtubeUrl": "https://www.youtube.com/watch?v=VuUksXm3RsA"
+      "youtubeUrl": "https://www.youtube.com/watch?v=2pIsn0h0ICk"
     },
     {
       "id": "03",
