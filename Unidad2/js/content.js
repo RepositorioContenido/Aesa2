@@ -9,9 +9,9 @@
  * ===========================================================================
  *
  *  contentSha256: 16ce64ee
- *  generatedAt:   2026-11-02T04:14:07.638Z
+ *  generatedAt:   2026-11-02T04:19:26.657Z
  */
-window.OVA_CONTENT_META = { contentSha256: "16ce64ee", generatedAt: "2026-11-02T04:14:07.642Z" };
+window.OVA_CONTENT_META = { contentSha256: "16ce64ee", generatedAt: "2026-11-02T04:19:26.658Z" };
 window.OVA_CONTENT = {
   "courseTitle": "Atención centrada en la persona y humanización del cuidado",
   "unitCode": "Unidad 2",
