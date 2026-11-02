@@ -8,10 +8,10 @@
  *  edita  content.json  y corré el generador.
  * ===========================================================================
  *
- *  contentSha256: 0c713104
- *  generatedAt:   2026-10-29T19:51:04.234Z
+ *  contentSha256: 4a18a083
+ *  generatedAt:   2026-11-02T04:07:41.909Z
  */
-window.OVA_CONTENT_META = { contentSha256: "0c713104", generatedAt: "2026-10-29T19:51:04.234Z" };
+window.OVA_CONTENT_META = { contentSha256: "4a18a083", generatedAt: "2026-11-02T04:07:41.914Z" };
 window.OVA_CONTENT = {
   "courseTitle": "Cultura de seguridad del paciente y gestión del riesgo clínico",
   "unitCode": "Unidad 1",
@@ -145,7 +145,7 @@ window.OVA_CONTENT = {
       "featuredImageAlt": "Médica y supervisora revisando información de seguridad en una tableta",
       "modalImage": "assets/modal1.jpg",
       "modalImageAlt": "Equipo de salud revisando un reporte en el pasillo de un hospital",
-      "youtubeUrl": "https://www.youtube.com/watch?v=VuUksXm3RsA"
+      "youtubeUrl": "https://www.youtube.com/watch?v=CTEhWJnqpLw"
     },
     {
       "id": "03",
