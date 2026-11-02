@@ -8,10 +8,10 @@
  *  edita  content.json  y corré el generador.
  * ===========================================================================
  *
- *  contentSha256: 26173662
- *  generatedAt:   2026-10-29T19:51:04.288Z
+ *  contentSha256: 16ce64ee
+ *  generatedAt:   2026-11-02T04:14:07.638Z
  */
-window.OVA_CONTENT_META = { contentSha256: "26173662", generatedAt: "2026-10-29T19:51:04.288Z" };
+window.OVA_CONTENT_META = { contentSha256: "16ce64ee", generatedAt: "2026-11-02T04:14:07.642Z" };
 window.OVA_CONTENT = {
   "courseTitle": "Atención centrada en la persona y humanización del cuidado",
   "unitCode": "Unidad 2",
@@ -145,7 +145,7 @@ window.OVA_CONTENT = {
       "featuredImageAlt": "Enfermera explicando información en una tableta a un paciente y su familia",
       "modalImage": "assets/modal1.jpg",
       "modalImageAlt": "Profesionales de la salud conversando con un usuario sobre su bienestar",
-      "youtubeUrl": "https://www.youtube.com/watch?v=VuUksXm3RsA"
+      "youtubeUrl": "https://www.youtube.com/watch?v=BqIX3ZBbj6U"
     },
     {
       "id": "03",
